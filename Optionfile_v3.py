@@ -47,13 +47,3 @@ with open(dest) as f1:
             else:
                 f2.write(i)
 
-
-"""
-    uid = []
-    for line in copyOptionFile('/home/louisen/NetDoc/LW/PycharmProjects/copyOptionFile'):
-        if line.startswith(group): continue
-        uid_list = line.split(' ')           # uid is a list containing user name separated by space
-        uid.append( uid_list[2] )
-
-http://stackoverflow.com/questions/12755587/using-python-to-write-specific-lines-from-one-file-to-another-file
-"""
